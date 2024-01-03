@@ -12,19 +12,19 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="/" style={{ color: 'chocolate' }}>Home</a>
+              <Link className="nav-link" to="/" style={{ color: 'chocolate' }}>Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/aboutus" style={{ color: 'chocolate' }}>About Us</a>
+              <Link className="nav-link" to="/aboutus" style={{ color: 'chocolate' }}>About Us</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/gallery" style={{ color: 'chocolate' }}>Gastronomic Gems</a>
+              <Link className="nav-link" to="/gallery" style={{ color: 'chocolate' }}>Gastronomic Gems</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contactus" style={{ color: 'chocolate' }}>Contact</a>
+              <Link className="nav-link" to="/contactus" style={{ color: 'chocolate' }}>Contact</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/login" style={{ color: 'chocolate' }}>Login</a>
+              <Link className="nav-link" to="/login" style={{ color: 'chocolate' }}>Login</Link>
             </li>
           </ul>
         </div>
