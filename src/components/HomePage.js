@@ -7,6 +7,7 @@ const HomePage = () => {
         backgroundAttachment: 'fixed'
       };
     return (
+      <>
       <main style={mainStyle}>
         <img className="backgroundImage" src="27.jpg"/>
         <div className="container mt-5 pt-5">        
@@ -26,6 +27,7 @@ const HomePage = () => {
           </div>    
         </div>
       </main>
+      </>
     );
   }
   
