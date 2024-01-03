@@ -2,7 +2,6 @@ const HomePage = () => {
     const mainStyle = {
         flex: 1,
         paddingTop: '5rem',
-        //backgroundImage: 'url("27.jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'
