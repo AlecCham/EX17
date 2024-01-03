@@ -14,11 +14,11 @@ function App() {
             <Navbar />
             <div className="container-fluid flex-grow-1">
                 <Routes>
-                    <Route path="/home" element={<HomePage />} />
-                    <Route path="/aboutus" element={<AboutUsPage />} />
-                    <Route path="/gallery" element={<GastronomicGemsPage />} />
-                    <Route path="/contactus" element={<ContactUsPage />} />
-                    <Route path="/login" element={<LoginPage />} />
+                    <Route path="/EX17" element={<HomePage />} />
+                    <Route path="/EX17/aboutus" element={<AboutUsPage />} />
+                    <Route path="/EX17/gallery" element={<GastronomicGemsPage />} />
+                    <Route path="/EX17/contactus" element={<ContactUsPage />} />
+                    <Route path="/EX17/login" element={<LoginPage />} />
                 </Routes>
             </div>
             <Footer />
