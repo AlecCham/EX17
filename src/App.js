@@ -14,7 +14,7 @@ function App() {
             <Navbar />
             <div className="container-fluid flex-grow-1">
                 <Routes>
-                    <Route path="/home" element={<HomePage />} />
+                    <Route path="/" element={<HomePage />} />
                     <Route path="/aboutus" element={<AboutUsPage />} />
                     <Route path="/gallery" element={<GastronomicGemsPage />} />
                     <Route path="/contactus" element={<ContactUsPage />} />
