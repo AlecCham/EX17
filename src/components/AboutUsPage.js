@@ -29,6 +29,7 @@ const AboutUsPage = () => {
                     .main {
                         flex-grow: 1;
                         color: chocolate;
+                        padding-top: 5rem; /* Adjust top padding as needed */
                     }
                     .navbar {
                         background-color: #f8c291;
@@ -39,17 +40,21 @@ const AboutUsPage = () => {
                     }
                     .btn-submit {
                         background-color: #f8c291;
-                        border: none; /* Remove default border */
-                        color: white; /* White text color */
+                        border: none;
+                        color: white;
                     }
                     .btn-submit:hover {
-                        background-color: darken(#f8c291, 10%);
+                        background-color: #c47f65; /* Adjusted for standard CSS */
                         color: white;
+                    }
+                    .img-fluid {
+                        max-width: 100%;
+                        height: auto;
                     }
                 `}
             </style>
         <br></br>
-        <main className="flex-grow-1">
+        <main style={mainStyle} className="flex-grow-1">
             <div className="container mt-5">
                 <h2 className="text-center mb-4">Welcome to Little Village</h2>
                 <p className="lead text-center">A place that transcends the ordinary and invites you on a unique journey where commerce meets community, and every visit is a social adventure. Nestled in the heart of our vibrant neighborhood, Little Village is more than just a market—it's a social journey that celebrates the essence of community, culture, and culinary delight.</p>
